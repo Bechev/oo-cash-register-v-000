@@ -13,6 +13,7 @@ class CashRegister
     i=0
     do
     @items_bought << item
+    i+=1
     while i< item_quantity
   end
 
