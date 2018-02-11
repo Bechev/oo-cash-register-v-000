@@ -23,6 +23,6 @@ class CashRegister
   end
 
   def items
-    @@items_bought
+    @items_bought
   end
 end
